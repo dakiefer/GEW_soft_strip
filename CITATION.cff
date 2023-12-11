@@ -1,0 +1,35 @@
+# Visit https://bit.ly/cffinit to generate CFF your file!
+
+cff-version: 1.2.0
+title: GEW soft strip
+message: 'If this software is useful to you, please cite it together with the accompanying paper.'
+type: software
+authors:
+  - given-names: Daniel A.
+    family-names: Kiefer
+    email: daniel.kiefer@espci.fr
+    affiliation: 'Institut Langevin, ESPCI Paris'
+    orcid: 'https://orcid.org/0000-0003-0776-8429'
+  - given-names: Alexandre
+    family-names: Delory
+    email: alexandre.delory@espci.psl.eu
+    affiliation: 'Institut Langevin, ESPCI Paris'
+    orcid: 'https://orcid.org/0000-0002-7623-5856'
+  - given-names: Fabrice
+    family-names: Lemoult
+    email: fabrice.lemoult@espci.psl.eu
+    affiliation: 'Institut Langevin, ESPCI Paris'
+    orcid: 'https://orcid.org/0000-0001-9757-0760'
+#doi: 
+version: 1.0.0
+date-released: 2023-12-12
+url: 'https://github.com/dakiefer/GEW_soft_strip'
+keywords:
+  - guided waves
+  - acoustoelasticity
+  - viscoelasticity
+  - nonlinear waves
+  - resonances
+  - dispersion
+  - Lamb waves
+  - anisotropy

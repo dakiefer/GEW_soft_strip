@@ -1,0 +1,35 @@
+{
+    "title": "GEW soft strip",
+    "description": "Compute guided elastic waves in a stretched soft strip.",
+    "creators": [
+        {
+            "name": "Kiefer, Daniel A.",
+            "affiliation": "Institut Langevin, ESPCI Paris, Université PSL",
+            "orcid": "0000-0003-0776-8429"
+        }
+        {
+            "name": "Delory, Alexandre",
+            "affiliation": "Institut Langevin, ESPCI Paris, Université PSL",
+            "orcid": "0000-0002-7623-5856"
+        }
+        {
+            "name": "Lemoult, Fabrice",
+            "affiliation": "Institut Langevin, ESPCI Paris, Université PSL",
+            "orcid": "0000-0001-9757-0760"
+        }
+    ],
+    "upload_type": "software",
+    "license": "isc",
+    "related_identifiers": [
+        {
+            "relation": "isSupplementTo",
+            "scheme": "url",
+            "resource_type": "software",
+            "identifier": "https://github.com/dakiefer/GEW_soft_strip"
+        }
+    ],
+    "references": [ 
+        "D. A. Kiefer, Elastodynamic quasi-guided waves for transit-time ultrasonic flow metering. in FAU Forschungen, Reihe B, Medizin, Naturwissenschaft, Technik, no. 42. Erlangen: FAU University Press, 2022. doi: 10.25593/978-3-96147-550-6"
+    ],
+    "keywords": ["guided waves", "dispersion", "acoustoelasticity", "viscoelasticity", "nonlinear waves", "Lamb waves", "elastodynamics", "ultrasound", "anisotropy"]
+}
