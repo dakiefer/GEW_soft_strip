@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     24663,        648]
-NotebookOptionsPosition[     22994,        609]
-NotebookOutlinePosition[     23405,        625]
-CellTagsIndexPosition[     23362,        622]
+NotebookDataLength[     25660,        670]
+NotebookOptionsPosition[     23847,        628]
+NotebookOutlinePosition[     24266,        644]
+CellTagsIndexPosition[     24223,        641]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -186,16 +186,16 @@ Cell[CellGroupData[{
 
 Cell[TextData[{
  "Apply equations from usual acoustoelastic theory\n",
- StyleBox["Ogden: \[OpenCurlyDoubleQuote]Non-linear elastic deformations\
+ StyleBox["Ogden: \[OpenCurlyDoubleQuote]Non-Linear Elastic Deformations\
 \[CloseCurlyDoubleQuote], Dover Publications, 1997\nDestrade  & Saccomandi: \
-\[OpenCurlyDoubleQuote]Waves  in  nonlinear pre-stressed materials\
+\[OpenCurlyDoubleQuote]Waves  in Nonlinear Pre-Stressed Materials\
 \[CloseCurlyDoubleQuote], Springer Wien,  2007",
   FontSize->16,
   FontSlant->"Italic"]
 }], "Subsubsection",
  CellChangeTimes->{{3.890720225461316*^9, 3.8907203507918906`*^9}, {
-  3.8907203816250043`*^9, 
-  3.890720390186597*^9}},ExpressionUUID->"e028df98-b2f3-4cfd-b33d-\
+  3.8907203816250043`*^9, 3.890720390186597*^9}, {3.9114678360057745`*^9, 
+  3.9114678534749994`*^9}},ExpressionUUID->"e028df98-b2f3-4cfd-b33d-\
 74eee947e050"],
 
 Cell[BoxData[
@@ -423,6 +423,24 @@ Cell[TextData[{
    3.8907274029648943`*^9},ExpressionUUID->"7466574d-fde8-4fd8-933f-\
 c2b86bc7a3fa"],
 
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Apply equations from visco-acoustoelastic theory\n",
+ StyleBox["Antman: \[OpenCurlyDoubleQuote]Nonlinear Problems of Elasticity\
+\[CloseCurlyDoubleQuote], Springer, 2004\nDestrade, Ogden  & Saccomandi: \
+\[OpenCurlyDoubleQuote]Small amplitude waves and stability for a pre-stressed \
+viscoelastic solid\[CloseCurlyDoubleQuote], Z. angew. Math. Phys 60,  2009",
+  FontSize->16,
+  FontSlant->"Italic"]
+}], "Subsubsection",
+ CellChangeTimes->{{3.890720225461316*^9, 3.8907203507918906`*^9}, {
+  3.8907203816250043`*^9, 3.890720390186597*^9}, {3.9114678294767566`*^9, 
+  3.9114678311169806`*^9}, {3.911467913283517*^9, 3.9114680223681746`*^9}, {
+  3.911468075772765*^9, 
+  3.911468083228619*^9}},ExpressionUUID->"9382fe72-f36c-4d53-924c-\
+8f6916dfe84d"],
+
 Cell[BoxData[
  RowBox[{
   RowBox[{
@@ -536,6 +554,7 @@ Cell[BoxData[
    3.861093970224627*^9, 3.8610939879171405`*^9}, {3.890719852803713*^9, 
    3.8907198714585924`*^9}, 3.8907255231991677`*^9},
  CellLabel->"In[6]:=",ExpressionUUID->"ab3b4ba4-777b-4a05-b46a-c4fe56319d11"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -607,8 +626,8 @@ Cell[BoxData[
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440., 777.75},
-WindowMargins->{{1147.2, Automatic}, {Automatic, 0}},
+WindowSize->{1118.25, 533.25},
+WindowMargins->{{Automatic, -1401.75}, {-9.75, Automatic}},
 FrontEndVersion->"12.2 pour Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"b141614c-47e8-4383-abd5-3c95b2d641e9"
@@ -630,23 +649,26 @@ Cell[CellGroupData[{
 Cell[1430, 51, 352, 12, 77, "Section",ExpressionUUID->"ab5027c7-1248-4f34-9137-fda9018ccc6e"],
 Cell[CellGroupData[{
 Cell[1807, 67, 457, 16, 45, "Subsubsection",ExpressionUUID->"e4d6b228-452b-41d6-b460-8d691f80a506"],
-Cell[2267, 85, 3027, 80, 154, "Input",ExpressionUUID->"8897f324-8b58-4899-9166-51c70ca4c975"],
+Cell[2267, 85, 3027, 80, 173, "Input",ExpressionUUID->"8897f324-8b58-4899-9166-51c70ca4c975"],
 Cell[5297, 167, 658, 14, 79, "Input",ExpressionUUID->"c84ea14e-c92e-4277-bc03-64932fbb112c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5992, 186, 578, 12, 89, "Subsubsection",ExpressionUUID->"e028df98-b2f3-4cfd-b33d-74eee947e050"],
-Cell[6573, 200, 9092, 206, 475, "Input",ExpressionUUID->"46aa2df5-4bf9-463f-b756-483a792a6d3e"]
+Cell[5992, 186, 627, 12, 89, "Subsubsection",ExpressionUUID->"e028df98-b2f3-4cfd-b33d-74eee947e050"],
+Cell[6622, 200, 9092, 206, 475, "Input",ExpressionUUID->"46aa2df5-4bf9-463f-b756-483a792a6d3e"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15714, 412, 338, 11, 77, "Section",ExpressionUUID->"7466574d-fde8-4fd8-933f-c2b86bc7a3fa"],
-Cell[16055, 425, 4572, 112, 333, "Input",ExpressionUUID->"ab3b4ba4-777b-4a05-b46a-c4fe56319d11"]
+Cell[15763, 412, 338, 11, 77, "Section",ExpressionUUID->"7466574d-fde8-4fd8-933f-c2b86bc7a3fa"],
+Cell[CellGroupData[{
+Cell[16126, 427, 767, 14, 89, "Subsubsection",ExpressionUUID->"9382fe72-f36c-4d53-924c-8f6916dfe84d"],
+Cell[16896, 443, 4572, 112, 333, "Input",ExpressionUUID->"ab3b4ba4-777b-4a05-b46a-c4fe56319d11"]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20664, 542, 454, 11, 66, "Section",ExpressionUUID->"d2653fff-8d47-4cdd-ad4c-71b52c0d353d"],
+Cell[21517, 561, 454, 11, 66, "Section",ExpressionUUID->"d2653fff-8d47-4cdd-ad4c-71b52c0d353d"],
 Cell[CellGroupData[{
-Cell[21143, 557, 1044, 25, 97, "Subsubsection",ExpressionUUID->"1fc1a78a-9ed0-463f-9681-2587e4c530c5"],
-Cell[22190, 584, 764, 20, 28, "Input",ExpressionUUID->"c01b1556-5744-4d8d-ba30-09a657b9fc78"]
+Cell[21996, 576, 1044, 25, 97, "Subsubsection",ExpressionUUID->"1fc1a78a-9ed0-463f-9681-2587e4c530c5"],
+Cell[23043, 603, 764, 20, 28, "Input",ExpressionUUID->"c01b1556-5744-4d8d-ba30-09a657b9fc78"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
