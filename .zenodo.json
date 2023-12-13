@@ -30,7 +30,7 @@
         }
     ],
     "references": [ 
-        "A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023. http://doi.org/10.48550/arXiv.2310.11396j",
+        "A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023. http://doi.org/10.48550/arXiv.2310.11396",
         "D. A. Kiefer, Elastodynamic quasi-guided waves for transit-time ultrasonic flow metering. in FAU Forschungen, Reihe B, Medizin, Naturwissenschaft, Technik, no. 42. Erlangen: FAU University Press, 2022. http://doi.org/10.25593/978-3-96147-550-6"
     ],
     "keywords": ["guided waves", "dispersion", "acoustoelasticity", "viscoelasticity", "nonlinear waves", "Lamb waves", "elastodynamics", "ultrasound", "anisotropy"]
