@@ -1,4 +1,5 @@
 {
+    "doi": "10.5281/zenodo.10371481",
     "title": "GEW soft strip",
     "description": "Compute guided elastic waves in a stretched soft strip.",
     "creators": [

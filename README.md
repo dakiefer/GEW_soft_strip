@@ -1,4 +1,4 @@
-# GEW soft strip 
+# GEW soft strip [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10371481.svg)](https://doi.org/10.5281/zenodo.10371481)
 
 **Compute guided elastic waves (GEWs) in a soft strip.** 
 
@@ -46,7 +46,7 @@ Harri Ojanen (1999). Mathematica Expression to Matlab m-file Converter (https://
 
 If this code is useful to you, please cite it as:
 
-> D. A. Kiefer, A. Delory, and F. Lemoult. GEW soft strip (2023), doi [TODO](http://doi.org/TODO). https://github.com/dakiefer/GEW_soft_strip
+> D. A. Kiefer, A. Delory, and F. Lemoult. GEW soft strip (2023), doi [10.5281/zenodo.10371481](http://doi.org/10.5281/zenodo.10371481). https://github.com/dakiefer/GEW_soft_strip
 
 together with the related publication:
 
