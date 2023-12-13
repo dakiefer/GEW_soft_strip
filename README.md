@@ -9,7 +9,7 @@ Three cases are included:
 2. `strip_elastic_SA_SCM.m`: as before but allows to choose the symmetry of waves.
 3. `strip_soft_viscoAE_SCM.m`: includes **acoustoelasticity** and **viscosity** for a soft, nearly-incompressible strip.
 
-Acoustoelasticity and viscosity are inherently present in common soft matter, such as biological tissue. Acoustoelasticity describes the effect of pre-stress on the wave propagation, which we account for using a compressible Mooney-Rivlin hyperelastic material model. Viscoelastic losses are included with a fractional Kelvin-Voigt model. The difficulty relies in the interdependence of both effects. 
+Acoustoelasticity and viscosity are inherently present in common soft matter, such as biological tissues. Acoustoelasticity describes the effect of pre-stress on the wave propagation, which we account for using a compressible Mooney-Rivlin hyperelastic material model. Viscoelastic losses are included with a fractional Kelvin-Voigt model. The difficulty relies in the interdependence of both effects. 
 
 The methods have been presented in:
 
@@ -20,8 +20,8 @@ Code repository: [<img src="https://www.svgrepo.com/show/35001/github.svg" alt="
 ## How to use
 
 1. Change into the `GEW_soft_strip` folder or add it to the Matlab path.
-2. Execute the desired script, e.g., `strip_elastic_SCM.m` or `strip_soft_viscoAE_SCM`. 
-3. If you want to implement a different hyperviscoelastic material model, you can create it by adapting and running `createTensorForMatlab.nb` in Mathematica. Copy the output of the last command as *plain text* and replace the marked block in `customTensor.m` with the code you copied. 
+2. Execute the desired script, i.e., `strip_elastic_SCM.m`, `strip_elastic_SA_SCM.m` or `strip_soft_viscoAE_SCM`. 
+3. If you want to implement a different hyperviscoelastic material model, you can create it by adapting `initiateTensor.nb` and `createTensorForMatlab.nb` and running the latter in Mathematica. Copy the output of the last command as *plain text* and replace the marked block in `customTensor.m` with the code you copied. 
 
 ## Limitations 
 
@@ -46,7 +46,7 @@ Harri Ojanen (1999). Mathematica Expression to Matlab m-file Converter (https://
 
 If this code is useful to you, please cite it as:
 
-> D. A. Kiefer, A. Delory, and F. Lemoult. "GEW soft strip" [Computer software], 2023. doi: [TODO](http://doi.org/TODO)
+> D. A. Kiefer, A. Delory, and F. Lemoult. GEW soft strip (2023), doi [TODO](http://doi.org/TODO). https://github.com/dakiefer/GEW_soft_strip
 
 together with the related publication:
 
@@ -60,7 +60,7 @@ Code created 2022–2023 by
 [daniel.kiefer@espci.fr](mailto:daniel.kiefer@espci.fr) &nbsp; ● &nbsp; [dakiefer.net](https://dakiefer.net) &nbsp; ● &nbsp; [Google Scholar](https://scholar.google.de/citations?user=odSy3v4AAAAJ&hl=en) &nbsp; ● &nbsp; Follow me on [ResearchGate](https://www.researchgate.net/profile/Daniel-Kiefer-5)!
 
 **Alexandre Delory**, Institut Langevin, ESPCI Paris, Université PSL, France<br/>
-[alexandre.delory@espci.psl.eu](mailto:alexandre.delory@espci.psl.eu) &nbsp; ● &nbsp; [Google Scholar](https://scholar.google.de/citations?hl=en&user=OgjaLqIAAAAJ).
+[delory.alexandre@free.fr](mailto:delory.alexandre@free.fr) &nbsp; ● &nbsp; [Google Scholar](https://scholar.google.de/citations?hl=en&user=OgjaLqIAAAAJ).
 
 **Fabrice Lemoult**, Institut Langevin, ESPCI Paris, Université PSL, France<br/>
 [fabrice.lemoult@espci.psl.eu](mailto:fabrice.lemoult@espci.psl.eu) &nbsp; ● &nbsp; [Google Scholar](https://scholar.google.de/citations?user=Gy6ImbgAAAAJ).
