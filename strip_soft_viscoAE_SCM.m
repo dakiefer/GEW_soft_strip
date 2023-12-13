@@ -1,3 +1,21 @@
+%% Dispersion calculation in a stretched soft strip
+% Strip with rectangular cross-section b x h.
+%
+% Acoustoelasticity describes the effect of pre-stress on the wave propagation,
+% which we account for using a compressible Mooney-Rivlin hyperelastic material
+% model. Viscoelastic losses are included with a fractional Kelvin-Voigt model.
+% The difficulty relies in the interdependence of both effects.
+% 
+% Depends on the DMSUITE toolbox by Weideman and Reddy:
+% https://mathworks.com/matlabcentral/fileexchange/29-dmsuite
+% 
+% see also:
+% A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult,
+% “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023.
+% doi: http://doi.org/10.48550/arXiv.2310.11396.
+%
+% 2023 - Alexandre Delory and Daniel A. Kiefer
+% Institut Langevin, ESPCI Paris | PSL, France
 
 % Select stretch ratios and frequencies
 lambdas1 = 1:.5:2;                   % list of axial stretch ratios

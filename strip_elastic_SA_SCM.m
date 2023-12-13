@@ -11,7 +11,7 @@
 % Lemoult, “Elastodynamics of a soft strip subject to a large deformation.”
 % arXiv, 2023. doi: http://doi.org/10.48550/arXiv.2310.11396.
 %
-% 2022-2023 - Daniel A. Kiefer, Institut Langevin, ESPCI Paris | PSL, France
+% 2023 - Daniel A. Kiefer, Institut Langevin, ESPCI Paris | PSL, France
 
 h = 3e-3/2;   % thickness in m (ey-dimension)
 b = 40e-3/2;  % width in m (ez-dimension)

@@ -7,12 +7,19 @@ function c = customTensor(varargin)
 % Input: 
 % - lambda1: axial stretch ratio (length/intial length)
 % - lambda3: transverse stretch ratio (lambda2 from incompressibility condition)
-% - vT: transverse wave velocity (linear-elastic)
-% - omega: angular frequency
-% - tau: relaxation time
-% - n: fractal derivative order
-% - beta: 
-% - alpha: 
+% - vT:      transverse wave velocity (linear-elastic)
+% - omega:   angular frequency
+% - tau:     relaxation time
+% - n:       fractal derivative order
+% - alpha:   hyperelastic parameter 1
+% - beta:    hyperelastic parameter 2
+% 
+% see also: 
+% A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult,
+% “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023.
+% doi: http://doi.org/10.48550/arXiv.2310.11396.
+% 
+% 2023 - Alexandre Delory, Institut Langevin, ESPCI Paris | PSL, France
 
 % global parameters for soft material (velocities and density)
 vL      = 1000;
