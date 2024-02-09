@@ -5,9 +5,10 @@
 This code computes dispersion curves of an anisotropic waveguide with rectangular cross-section. It uses the spectral collocation method (SCM) and is an extension to "[GEW dispersion script](https://github.com/dakiefer/GEW_dispersion_script)".
 
 Three cases are included: 
-1. `strip_elastic_SCM.m`: linear-elastic (possibly anisotropic) strip.
-2. `strip_elastic_SA_SCM.m`: as before but allows to choose the symmetry of waves.
-3. `strip_soft_viscoAE_SCM.m`: includes **acoustoelasticity** and **viscosity** for a soft, nearly-incompressible strip.
+1. `strip_elastic_SCM.m`: linear-elastic (possibly anisotropic) strip with free boundaries.
+2. `strip_elastic_clamped_SCM.m`: same but with the lateral boundaries clamped. 
+3. `strip_elastic_SA_SCM.m`: free strip with symmetry conditions (SS, SA, AA, AS).
+4. `strip_soft_viscoAE_SCM.m`: includes **acoustoelasticity** and **viscosity** for a soft, nearly-incompressible strip.
 
 Acoustoelasticity and viscosity are inherently present in common soft matter, such as biological tissues. Acoustoelasticity describes the effect of pre-stress on the wave propagation, which we account for using a compressible Mooney-Rivlin hyperelastic material model. Viscoelastic losses are included with a fractional Kelvin-Voigt model. The difficulty relies in the interdependence of both effects. 
 
@@ -20,12 +21,12 @@ Code repository: [<img src="https://www.svgrepo.com/show/35001/github.svg" alt="
 ## How to use
 
 1. Change into the `GEW_soft_strip` folder or add it to the Matlab path.
-2. Execute the desired script, i.e., `strip_elastic_SCM.m`, `strip_elastic_SA_SCM.m` or `strip_soft_viscoAE_SCM`. 
+2. Execute the desired script, i.e., `strip_elastic_SCM.m`, `strip_elastic_SA_SCM.m`,`strip_elastic_clamped_SCM.m` or `strip_soft_viscoAE_SCM`. 
 3. If you want to implement a different hyperviscoelastic material model, you can create it by adapting `initiateTensor.nb` and `createTensorForMatlab.nb` and running the latter in Mathematica. Copy the output of the last command as *plain text* and replace the marked block in `customTensor.m` with the code you copied. 
 
 ## Limitations 
 
-Mixed boundary conditions (Dirichlet and Neumann) can lead to instabilities at the corners. Switch to another discretization method, e.g., Finite Elements, if this is needed.
+Mixed boundary conditions (Dirichlet and Neumann) as used in `strip_elastic_clamped_SCM.m` lead to instabilities at the corners. Depending on the parity of the number of collocation points, either the in-plane or the out-of-plane waves are, nonetheless, well represented. Switch to another discretization method, e.g., Finite Elements, if this is still an issue.
 
 ## Mathematical background 
 
@@ -44,7 +45,7 @@ Harri Ojanen (1999). Mathematica Expression to Matlab m-file Converter (https://
 
 ## Citing this software
 
-If this code is useful to you, please cite it as:
+If this code is useful to you, please cite it as (always including the DOI):
 
 > D. A. Kiefer, A. Delory, and F. Lemoult. GEW soft strip (2023), doi [10.5281/zenodo.10372576](http://doi.org/10.5281/zenodo.10372576). https://github.com/dakiefer/GEW_soft_strip
 

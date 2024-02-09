@@ -2,7 +2,7 @@
 % Strip with rectangular cross-section b x h. Only a quarter of the
 % cross-section is modeled and we impose symmetry/anti-symmetry conditions on
 % the horizontal and vertical mid-planes. This allows to compute selected waves
-% based on their symmetry. 
+% based on their symmetry. Set the variable "symmetery" accordingly. 
 % 
 % Depends on the DMSUITE toolbox by Weideman and Reddy:
 % https://mathworks.com/matlabcentral/fileexchange/29-dmsuite
