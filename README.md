@@ -13,7 +13,7 @@ Acoustoelasticity and viscosity are inherently present in common soft matter, su
 
 The methods have been presented in:
 
-> A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023. doi: [10.48550/arXiv.2310.11396](http://doi.org/10.48550/arXiv.2310.11396).
+> A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Viscoelastic dynamics of a soft strip subject to a large deformation,” *Soft Matter*, Jan. 2024, doi: [10.1039/D3SM01485A](https://doi.org/10.1039/D3SM01485A).
 
 Code repository: [<img src="https://www.svgrepo.com/show/35001/github.svg" alt="GitHub" width="27px" />](https://github.com/dakiefer/gew_zgv_computation) [https://github.com/dakiefer/gew_soft_strip](https://github.com/dakiefer/gew_soft_strip)
 
@@ -50,7 +50,7 @@ If this code is useful to you, please cite it as:
 
 together with the related publication:
 
-> A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023. doi: [10.48550/arXiv.2310.11396](http://doi.org/10.48550/arXiv.2310.11396).
+> A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult, “Viscoelastic dynamics of a soft strip subject to a large deformation,” *Soft Matter*, Jan. 2024, doi: [10.1039/D3SM01485A](https://doi.org/10.1039/D3SM01485A).
 
 ## Authors
 

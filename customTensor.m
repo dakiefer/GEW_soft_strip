@@ -16,8 +16,8 @@ function c = customTensor(varargin)
 % 
 % see also: 
 % A. Delory, D. A. Kiefer, M. Lanoy, A. Eddi, C. Prada, and F. Lemoult,
-% “Elastodynamics of a soft strip subject to a large deformation.” arXiv, 2023.
-% doi: http://doi.org/10.48550/arXiv.2310.11396.
+% “Viscoelastic dynamics of a soft strip subject to a large deformation,” 
+% Soft Matter, Jan. 2024, doi: 10.1039/D3SM01485A.
 % 
 % 2023 - Alexandre Delory, Institut Langevin, ESPCI Paris | PSL, France
 
